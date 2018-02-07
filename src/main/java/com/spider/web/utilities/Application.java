@@ -1,4 +1,4 @@
-package com.spider.web;
+package com.spider.web.utilities;
 
 /**
  * Hello world!

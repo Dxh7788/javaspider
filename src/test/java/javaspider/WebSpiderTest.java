@@ -1,4 +1,4 @@
-package com.yeezhao.common.http;
+package javaspider;
 
 import com.spider.web.utilities.WebSpider;
 import org.junit.After;
@@ -15,7 +15,7 @@ import org.junit.Test;
  * 2016年12月27日
  */
 public class WebSpiderTest {
-    String seeds[] = {"http://baike.baidu.com/view/1.htm","http://m.ximalaya.com/tracks/26096131.json","http://remyapi.yeezhao.com/api/query?wd=%E5%91%A8%E6%98%9F%E9%A9%B0%E7%9A%84%E7%94%B5%E5%BD%B1"};
+    String seeds[] = {"http://baike.baidu.com/view/1.htm"};
     final static String DEFAULT_CHARSET = "UTF-8";
     @Before
     public void setUp() throws Exception {
